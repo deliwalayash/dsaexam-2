@@ -11,7 +11,7 @@ int main(){
 
     if (n==0){
 
-        cout <<"Enter number except 0";
+        cout <<"Enter number except 0" << endl;
         return 0;
     }
 

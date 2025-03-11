@@ -10,6 +10,12 @@ int main(){
 
     cin >> n;
 
+    if (n==0){
+
+        cout <<"Enter number except 0" << endl;
+        return 0;
+    }
+
     lastdigit=n % 10;
 
     n = n / 10;

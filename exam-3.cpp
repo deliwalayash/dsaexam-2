@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-    int i,n,lastdigit,firstdigit;
+    int i,n,lastdigit,firstdigit,sum;
 
     cout << "Enter Any Number";
 
@@ -24,8 +24,10 @@ int main(){
         firstdigit= n %10;
         n = n /10;
     }
-
-    cout <<"Sum of first and last digit is " << firstdigit +lastdigit;
+     
+    sum =firstdigit +lastdigit;
+    (sum < 0) ? sum=-sum : sum=sum;
+    cout <<"Sum of first and last digit is " << sum;
 
 
 }
